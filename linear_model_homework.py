@@ -9,7 +9,7 @@ def forward(x):
 
 def loss(x, y):
     y_pred = forward(x)
-    return (y_pred - y) ** 2  # 修正为平方形式
+    return (y_pred - y) ** 2
 
 # 存储w、b和对应的MSE
 w_list = []
