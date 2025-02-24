@@ -1,3 +1,4 @@
 dataset/
 name_test.csv.gz
 name_train.csv.gz
+diabetes.csv
