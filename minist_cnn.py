@@ -130,7 +130,7 @@ def visualize_predictions():
     plt.show()
 
 if __name__ == '__main__':
-    for epoch in range(10):
+    for epoch in range(20):
         train(epoch)
         acc = test()
         test_accuracies.append(acc)
